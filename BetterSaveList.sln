@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34902.65
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BetterSaveList", "BetterSaveList\BetterSaveList.csproj", "{FB24AFDA-8722-48E4-B30B-856BA4B040E5}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "UI", "UI\UI.esproj", "{B866CE40-C84C-4BE9-8535-3F1304E1CB66}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Items", "Items", "{FAAB6277-0A90-4A1E-A6A0-411764590DF8}"
+	ProjectSection(SolutionItems) = preProject
+		CHANGELOG.md = CHANGELOG.md
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "LibShared", "LibShared\LibShared.shproj", "{82E5D509-AF54-4030-A715-4FE1D5D70425}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB24AFDA-8722-48E4-B30B-856BA4B040E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB24AFDA-8722-48E4-B30B-856BA4B040E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB24AFDA-8722-48E4-B30B-856BA4B040E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB24AFDA-8722-48E4-B30B-856BA4B040E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B866CE40-C84C-4BE9-8535-3F1304E1CB66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B866CE40-C84C-4BE9-8535-3F1304E1CB66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B866CE40-C84C-4BE9-8535-3F1304E1CB66}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B866CE40-C84C-4BE9-8535-3F1304E1CB66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B866CE40-C84C-4BE9-8535-3F1304E1CB66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B866CE40-C84C-4BE9-8535-3F1304E1CB66}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {86B72539-A381-4B91-AC57-D65B72049B81}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		LibShared\LibShared.projitems*{82e5d509-af54-4030-a715-4fe1d5d70425}*SharedItemsImports = 13
+		LibShared\LibShared.projitems*{fb24afda-8722-48e4-b30b-856ba4b040e5}*SharedItemsImports = 5
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,12 @@
+.better-save-list {
+    display: flex;
+    flex-direction: row;
+
+}
+.city-list-header {
+    justify-content: flex-start;
+    div:first-child {
+        display: none;
+    }
+
+}
